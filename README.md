@@ -14,10 +14,10 @@ exercice1_piwigo
 ├── images
 ├── js
 │   ├── componentes
-│   │   └── grid.js
+│   │   └── grid.js (création de la grille)
 │   └── functions
-│       ├── api.js
-│       └── createElement.js
+│       ├── api.js  (appelle api pour récupérer les verions de piwigo et php)
+│       └── createElement.js (fonction utilitaire à la création du DOM)
 ├── index.html
 ├── style.css
 └── script.js
