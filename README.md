@@ -8,22 +8,20 @@ Implémentation de cette maquette d’un Bubble Matrix Chart en HTML / CSS / Jav
 
 ## Arborescence du projet
 
+
+```
 exercice1_piwigo
-│
 ├── images
-│   └── ...
-│
 ├── js
 │   ├── componentes
-│   │   └── grid.js (création de la grille)
-│   │
+│   │   └── grid.js
 │   └── functions
-│       ├── api.js (requêtes HTTP pour récupérer les versions PHP et Piwigo)
-│       └── createElement.js (fonction utilitaire de création d’éléments DOM)
-│
+│       ├── api.js
+│       └── createElement.js
 ├── index.html
 ├── style.css
 └── script.js
+```
 
 ---
 
