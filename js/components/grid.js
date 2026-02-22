@@ -43,6 +43,8 @@ export const createGrid = (phpVersions, piwigoVersions) => {
             const dataCell = createElement("div", { class: "cell data" });
 
             /* --- calcul des valeurs du cerce --- */
+            // à terme ces valeurs devraient etre récupérable via fetch et passer dans un objet exploitable
+            // Mais pour l'instant elles sont juste générer aléatoirement ici
             const value = Math.random();
 
             const size = value * 100 - 20;
