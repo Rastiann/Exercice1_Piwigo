@@ -37,3 +37,9 @@ Pour activer le fonctionnement normal :
 - Commentez les 2 tableaux
 
 Le script pourra alors récupérer correctement les données depuis les API.
+
+---
+
+## Lien
+
+https://rastiann.github.io/Exercice1_Piwigo/
