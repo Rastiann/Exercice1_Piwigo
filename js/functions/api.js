@@ -41,9 +41,12 @@ export const fetchAllVersions = async () => {
         const piwigoVersions = piwigoData.filter((r) => r.prerelease == false).map(r => r.tag_name);
         const phpVersions = Object.values(phpData.data).map(e => e.name).slice(-7).reverse();
 
+        console.log("api fonctionelle")
+
         return { phpVersions, piwigoVersions }
     } catch (e) {
         console.error("Erreur récupération versions : ", e);
     }
 
 };
+
